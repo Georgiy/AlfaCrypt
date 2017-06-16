@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_rates"
+        android:icon="@drawable/rates"
+        android:title="@string/title_rates" />
+
+    <item
+        android:id="@+id/navigation_eth_rur"
+        android:icon="@drawable/eth_rur"
+        android:title="@string/title_eth_rur" />
+
+    <item
+        android:id="@+id/navigation_miner"
+        android:icon="@drawable/mining_symbol"
+        android:title="@string/title_miner" />
+
+</menu>
