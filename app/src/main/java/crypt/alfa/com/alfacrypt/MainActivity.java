@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_miner:
                     wv.setWebViewClient(new Callback()); //HERE IS THE MAIN CHANGE.
-                    wv.loadUrl("https://ethermine.org/miners/a0AC224BFA8132164c68cbD0bf58b7Ac815Ee2A6");
+                    wv.loadUrl("https://ethermine.org/miners/e8a3224e9b01864A0C235Eac0E29a5a873d2feC1");
                     getSupportActionBar().setTitle(R.string.title_miner);
                     results.setVisibility(View.GONE);
                     return true;
